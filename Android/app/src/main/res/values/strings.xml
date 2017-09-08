@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">CarAutomation</string>
+    <string name="empresa">By Technology and Development</string>
+
+    <string name="acessar">Acessar</string>
+    <string name="sobre">Sobre</string>
+
+    <string name="login">Login</string>
+    <string name="senha">Senha</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="vidros">Vidros</string>
+    <string name="abrir_vidro">Abrir Vidros</string>
+    <string name="fechar_vidro">Fechar Vidros</string>
+
+    <string name="travas">Travas</string>
+    <string name="destravar">Destravar</string>
+    <string name="travar">Travar</string>
+
+    <string name="limpador_vidro">Para-Brisa</string>
+    <string name="ligar_limpador_medio">Ativar Limpador</string>
+    <string name="desligar_limpador">Desativar Limpador</string>
+
+    <string name="ignicao">Ignição</string>
+    <string name="chave">Ignição</string>
+    <string name="ligar">Partida</string>
+
+    <string name="farois">Faróis</string>
+    <string name="alto">Farol Alto</string>
+    <string name="farol">Farol Baixo</string>
+
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="title_activity_vidro">VidroActivity</string>
+    <string name="title_activity_splash">SplashActivity</string>
+    <string name="title_activity_apresentacao">ApresentacaoActivity</string>
+    <string name="title_activity_index">IndexActivity</string>
+    <string name="title_activity_trava">TravaActivity</string>
+    <string name="title_activity_para_brisa">ParaBrisaActivity</string>
+    <string name="title_activity_sobre">SobreActivity</string>
+    <string name="title_activity_farol">FarolActivity</string>
+    <string name="title_activity_ignicao">IgnicaoActivity</string>
+
+    <string name="app">Car\nAutomation</string>
+    <string name="versao">Versão: 0.2</string>
+    <string name="desenvolvido">Desenvolvido por: By Tech</string>
+    <string name="email">bytech@hotmail.com</string>
+    <string name="agradecimento">
+        Obrigado por utilizar o CarAutomation!\n
+        Este aplicativo está em desenvolvimento.
+        Sua precisão quanto aos comandos pode variar de acordo com o aparelho e pela precisão do Bluetooth.\n
+        Não garantimos total funcionamento do aplicativo.
+    </string>
+</resources>

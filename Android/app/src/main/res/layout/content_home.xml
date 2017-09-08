@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.carautomation.carautomation11.HomeActivity"
+    tools:showIn="@layout/activity_home">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffea00"
+        android:id="@+id/cabecalho"
+        android:orientation="horizontal"
+        android:padding="10dip"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+        <TextView
+            android:textColor="#000"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_width="fill_parent"
+            android:gravity="center_horizontal"
+            android:textStyle="italic"
+            android:textSize="18dp"
+            android:id="@+id/texto1"
+            android:text="@string/app_name" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_alignParentBottom="true"
+        android:gravity="center_vertical"
+        android:background="#ffea00"
+        android:layout_height="wrap_content"
+        android:id="@+id/rodape"
+        android:padding="10dip">
+        <TextView
+            android:textColor="#000"
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:gravity="center_horizontal"
+            android:id="@+id/texto2"
+            android:text="@string/empresa" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cabecalho"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp">
+
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="70dp"
+            android:text="@string/vidros"
+            android:id="@+id/btnVidro"
+            android:background="#fbed56" />
+
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="70dp"
+            android:text="@string/travas"
+            android:id="@+id/btnTrava"
+            android:layout_alignParentRight="true"
+            android:background="#fbed56" />
+
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="70dp"
+            android:text="@string/limpador_vidro"
+            android:id="@+id/btnParaBrisa"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/btnTrava"
+            android:layout_alignLeft="@+id/btnTrava"
+            android:layout_alignStart="@+id/btnTrava"
+            android:background="#fbed56" />
+
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="70dp"
+            android:text="@string/farois"
+            android:id="@+id/btnFarol"
+            android:layout_marginTop="10dp"
+            android:background="#fbed56"
+            android:layout_below="@+id/btnVidro"
+            android:layout_alignLeft="@+id/btnVidro"
+            android:layout_alignStart="@+id/btnVidro" />
+
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:text="@string/ignicao"
+            android:id="@+id/btnIgnicao"
+            android:background="#fbed56"
+            android:layout_below="@id/btnParaBrisa"
+            android:layout_marginTop="10dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="70dp"
+            android:text="Dados"
+            android:id="@+id/btnDados"
+            android:layout_marginTop="10dp"
+            android:background="#fbed56"
+            android:layout_below="@+id/btnIgnicao"
+            android:layout_alignLeft="@+id/btnVidro"
+            android:layout_alignStart="@+id/btnVidro" />
+
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="70dp"
+            android:text="Manutenção"
+            android:id="@+id/btnManutencao"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/btnIgnicao"
+            android:layout_alignLeft="@+id/btnTrava"
+            android:layout_alignStart="@+id/btnTrava"
+            android:background="#fbed56" />
+
+    </RelativeLayout>
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Voz"
+        android:id="@+id/btnVoice"
+        android:layout_above="@+id/rodape"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="10dp"
+        android:background="#fbed56"/>
+</RelativeLayout>

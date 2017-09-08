@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="Ativado">#54d903</color>
+    <color name="Desativado">#ffea00</color>
+    <color name="AcionaVoz">#00a8ff</color>
+</resources>

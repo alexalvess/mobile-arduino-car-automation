@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.carautomation.carautomation11.Desativados.Obd2Activity"
+    tools:showIn="@layout/activity_obd2">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffea00"
+        android:id="@+id/cabecalho"
+        android:orientation="horizontal"
+        android:padding="10dip"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+        <TextView
+            android:textColor="#000"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_width="fill_parent"
+            android:gravity="center_horizontal"
+            android:textStyle="italic"
+            android:textSize="18dp"
+            android:id="@+id/texto1"
+            android:text="@string/app_name" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_alignParentBottom="true"
+        android:gravity="center_vertical"
+        android:background="#ffea00"
+        android:layout_height="wrap_content"
+        android:id="@+id/rodape"
+        android:padding="10dip">
+        <TextView
+            android:textColor="#000"
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:gravity="center_horizontal"
+            android:id="@+id/texto2"
+            android:text="@string/empresa" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cabecalho"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="10dp"
+            android:background="#7a038ce8">
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="@string/motor"
+                android:id="@+id/textView10"
+                android:textAlignment="center"
+                android:background="#038ce8"
+                android:textColor="#FFF"/>
+
+            <TextView
+                android:layout_width="175dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textView10"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="@string/carga"
+                android:id="@+id/textView3"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="5dp"
+                android:textColor="#FFF"
+                android:textSize="18dp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="@string/rpm"
+                android:id="@+id/textView4"
+                android:layout_below="@+id/textView3"
+                android:layout_alignLeft="@+id/textView3"
+                android:layout_alignStart="@+id/textView3"
+                android:layout_marginTop="20dp"
+                android:textColor="#FFF"
+                android:textSize="18dp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="@string/tempo_execucao"
+                android:id="@+id/textView5"
+                android:layout_below="@+id/textView4"
+                android:layout_alignLeft="@+id/textView4"
+                android:layout_alignStart="@+id/textView4"
+                android:layout_marginTop="20dp"
+                android:textColor="#FFF"
+                android:textSize="18dp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="@string/fluxo_ar"
+                android:id="@+id/textView7"
+                android:layout_below="@+id/textView5"
+                android:layout_alignLeft="@+id/textView5"
+                android:layout_alignStart="@+id/textView5"
+                android:layout_marginTop="20dp"
+                android:textColor="#FFF"
+                android:textSize="18dp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="@string/posicao_acelerador"
+                android:id="@+id/textView8"
+                android:layout_below="@+id/textView7"
+                android:layout_alignLeft="@+id/textView7"
+                android:layout_alignStart="@+id/textView7"
+                android:layout_marginTop="20dp"
+                android:textColor="#FFF"
+                android:textSize="18dp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="___________"
+                android:id="@+id/txtCarga"
+                android:layout_alignTop="@+id/textView3"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginRight="24dp"
+                android:layout_marginEnd="24dp"
+                android:textColor="#FFF"
+                android:textSize="18dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="___________"
+                android:id="@+id/txtRPM"
+                android:textColor="#FFF"
+                android:textSize="18dp"
+                android:layout_alignTop="@+id/textView4"
+                android:layout_alignRight="@+id/txtCarga"
+                android:layout_alignEnd="@+id/txtCarga" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="___________"
+                android:id="@+id/txtTempoExecucao"
+                android:textColor="#FFF"
+                android:textSize="18dp"
+                android:layout_alignTop="@+id/textView5"
+                android:layout_alignRight="@+id/txtRPM"
+                android:layout_alignEnd="@+id/txtRPM" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="___________"
+                android:id="@+id/txtFluxoAr"
+                android:textColor="#FFF"
+                android:textSize="18dp"
+                android:layout_alignTop="@+id/textView7"
+                android:layout_alignRight="@+id/txtTempoExecucao"
+                android:layout_alignEnd="@+id/txtTempoExecucao" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="___________"
+                android:id="@+id/txtPosicaoAcelerador"
+                android:textColor="#FFF"
+                android:textSize="18dp"
+                android:layout_alignTop="@+id/textView8"
+                android:layout_alignRight="@+id/txtFluxoAr"
+                android:layout_alignEnd="@+id/txtFluxoAr" />
+        </RelativeLayout>
+
+    </ScrollView>
+
+</RelativeLayout>
